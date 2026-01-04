@@ -11,6 +11,8 @@ checkpoints/
 /debug.py
 /certificate.pem
 /CODE_OF_CONDUCT.md
+/pytorch3d
+/MoGe/
 /kaolin*
 *.pt
 *.pth
