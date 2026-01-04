@@ -42,7 +42,7 @@ Configure parameters in `main()`:
 ## Installation
 ```bash
 git clone https://github.com/IDEA-Research/Grounded-SAM-2.git
-git clone https://github.com/xxx/vggt.git
+git clone https://github.com/facebookresearch/vggt.git
 ```
 
 Follow the env setup guide: https://github.com/facebookresearch/sam-3d-objects/blob/main/doc/setup.md

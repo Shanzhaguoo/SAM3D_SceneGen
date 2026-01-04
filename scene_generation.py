@@ -478,8 +478,8 @@ def process_scene(
 
 
 def main():
-    IMAGE_DIR = "./data/class1"
-    TEXT_PROMPT = "desk."
+    IMAGE_DIR = "./data/class2"
+    TEXT_PROMPT = "chair."
     OUTPUT_DIR = "outputs/merged_scene"
     
     image_paths = sorted(glob.glob(os.path.join(IMAGE_DIR, "*.png")))
