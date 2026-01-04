@@ -28,6 +28,14 @@ class Dino(torch.nn.Module):
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
             
+            import os
+            local_repo_dir = os.path.expanduser("~/.cache/torch/hub/facebookresearch_dinov2_main")
+            
+            if os.path.exists(local_repo_dir):
+                logger.info(f"Detected local DINO repo at {local_repo_dir}, using source='local'")
+                repo_or_dir = local_repo_dir
+                source = "local"
+
             logger.info(f"Loading DINO model: {dino_model} from {repo_or_dir} (source: {source})")
             if backbone_kwargs:
                 logger.info(f"DINO backbone kwargs: {backbone_kwargs}")
@@ -35,7 +43,7 @@ class Dino(torch.nn.Module):
             self.backbone = torch.hub.load(
                 repo_or_dir=repo_or_dir,
                 model=dino_model,
-                source=source,
+                source=source,     
                 verbose=False,
                 **backbone_kwargs,
             )

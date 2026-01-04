@@ -1,0 +1,17 @@
+{
+  "image_paths": [
+    "./data/class1/frame_01.jpg",
+    "./data/class1/frame_02.jpg"
+  ],
+  "text_prompt": "desk.",
+  "objects": [
+    "desk_img0",
+    "desk_img0",
+    "desk_img0",
+    "desk_img1",
+    "desk_img1",
+    "desk_img1"
+  ],
+  "num_images": 2,
+  "num_objects": 6
+}
