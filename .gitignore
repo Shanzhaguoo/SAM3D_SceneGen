@@ -19,15 +19,15 @@ checkpoints/
 *.ply
 *.zip
 *.gif
-*.png
-*.jpg
 *.jpeg
 !/doc/*.png
 !/doc/*.gif
 
 /kaolin-*/
+.gradio
 /v0.17.0.zip
 /gaussians/
+/notebook/images/
 /outputs/merged_scene/merged_scene.ply
 /outputs/merged_scene/visualization/camera_trajectory*
 splat.ply
