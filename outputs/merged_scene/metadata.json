@@ -1,0 +1,24 @@
+{
+  "image_paths": [
+    "./data/class2/frame_01.jpg",
+    "./data/class2/frame_02.jpg"
+  ],
+  "text_prompt": "chair.",
+  "objects": [
+    "chair_img0",
+    "chair_img0",
+    "chair_img0",
+    "chair_img0",
+    "chair_img0",
+    "chair_img0",
+    "chair_img1",
+    "chair_img1",
+    "chair_img1",
+    "chair_img1",
+    "chair_img1",
+    "chair_img1",
+    "chair_img1"
+  ],
+  "num_images": 2,
+  "num_objects": 13
+}

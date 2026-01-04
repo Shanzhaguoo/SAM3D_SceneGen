@@ -28,7 +28,8 @@ checkpoints/
 /kaolin-*/
 /v0.17.0.zip
 /gaussians/
-/outputs/
+/outputs/merged_scene/merged_scene.ply
+/outputs/merged_scene/visualization/camera_trajectory*
 splat.ply
 
 *.egg-info/
